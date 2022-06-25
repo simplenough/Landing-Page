@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+   width: 100vw;
+   height: 100vh;
+   background-image: url(/assets/hero_img.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center center;
+}
+
+.product-img {
+    float: left;
+    width: 25%;
+    margin: 60px 75px;
+    padding-top: 50px;
+
+}
+
+.hero-info {
+    float: right;
+    width: 55%;
+    color: midnightblue;
+    margin: 30px;
+    
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 90px;
+    padding-bottom: 15px;
+    color: salmon;
+    font-family: 'Courier New', monospace;
+   
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Monaco, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    padding-bottom: 50px;
+    font-family: 'Courier New', monospace;
+}
+
+p {
+    width: 500px;
+    height: auto;
+    font-size: 20px;
+    padding-bottom: 65px;
+    line-height: 1.5;
+
+}
+
+.btn {
+    width: 110px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Monaco, sans-serif;
+    background-color: midnightblue;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: salmon;
+    color: whitesmoke;
+}
+
+.product-info {
+    background-color: midnightblue;
+    color: white;
+}
+
+.description p{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 50px 75px;
+    color: white;
+}
+
+.testimonials {
+    width: 100%;
+    padding: 50px 75px;
+    font-size: 18px;
+    background-color: gainsboro;
+}
+
+.testimonials-text {
+    float: left;
+    width: 75%;
+    color: midnightblue;
+    background-color: red;
+}
+
+.testimonial {
+    background-color: orange;
+    width: 75%;
+}
+
+.test-img {
+    float: right;
+    width: 25%;
+}
